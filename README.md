@@ -31,7 +31,7 @@ NOTE: You will also need to have ng-zorro-antd installed.
 
 ```bash
 npm install ng-zorro-antd
-npm install angular-notifier
+npm install https://github.com/mrivar/angular-notifier/tarball/master
 ```
 
 <br>
