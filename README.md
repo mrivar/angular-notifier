@@ -27,8 +27,10 @@ You can play around with this library with **[this Stackblitz right here](https:
 
 You can get **angular-notifier** via **npm** by either adding it as a new _dependency_ to your `package.json` file and running npm install,
 or running the following command:
+NOTE: You will also need to have ng-zorro-antd installed.
 
 ```bash
+npm install ng-zorro-antd
 npm install angular-notifier
 ```
 
