@@ -8,6 +8,7 @@ import { NotifierAnimationService } from './services/notifier-animation.service'
 import { NotifierQueueService } from './services/notifier-queue.service';
 import { NotifierService } from './services/notifier.service';
 import { NotifierConfigToken, NotifierOptionsToken } from './notifier.tokens';
+import { NzAlertModule } from 'ng-zorro-antd/alert'
 
 /**
  * Factory for a notifier configuration with custom options
@@ -46,7 +47,8 @@ export function notifierDefaultConfigFactory(): NotifierConfig {
 		NotifierContainerComponent
 	],
 	imports: [
-		CommonModule
+		CommonModule,
+		NzAlertModule
 	],
 	providers: [
 		NotifierAnimationService,

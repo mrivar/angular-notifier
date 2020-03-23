@@ -44,6 +44,7 @@
 		"test:library": "ng test angular-notifier"
 	},
 	"dependencies": {
+		"ng-zorro-antd": "^8.5.2",
 		"tslib": "1.10.x"
 	},
 	"peerDependencies": {

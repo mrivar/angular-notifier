@@ -17,6 +17,11 @@ export class NotifierNotification {
 	 */
 	public type: string;
 
+        /**
+         * Notification title
+         */
+        title: string;
+
 	/**
 	 * Notification message
 	 */
@@ -68,7 +73,12 @@ export interface NotifierNotificationOptions {
 	type: string;
 
 	/**
-	 * Notificatin message
+	 * Notification title
+	 */
+	title: string;
+
+	/**
+	 * Notification message
 	 */
 	message: string;
 
